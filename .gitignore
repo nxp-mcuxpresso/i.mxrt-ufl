@@ -1,0 +1,75 @@
+#
+# NOTE! Don't add files that are generated in specific
+# subdirectories here. Add them in the ".gitignore" file
+# in that subdirectory instead.
+#
+# NOTE! Please use 'git-ls-files -i --exclude-standard'
+# command after changing this file, to see if there are
+# any tracked files which get ignored after the change.
+
+#
+# some folders
+#
+
+/res/
+
+#
+# Normal rules
+#
+*.o
+*.o.*
+*.a
+*.lst
+*.elf
+*.bin
+
+#
+# Top-level generic files
+#
+release
+*_release
+*.nxa07314
+
+*/*/out/
+*/*/Output/
+*/*/Listings/
+*/*/Objects/
+*/*/UV4_Listings/
+*/*/UV4_Objects/
+*/*/UV5_Listings/
+*/*/UV5_Objects/
+*/*/*/Debug/
+*/*/*/Release/
+*/*/*/settings/
+*/*/*/.settings/
+
+*/*/*/*/Debug/
+*/*/*/*/Release/
+*/*/*/*/settings/
+*/*/*/*/FlashIMXRT_FlexSPI/
+
+*/*/*/*/output/
+*/*/*/*/*.scvd
+*/*/*/*/*.txt
+*/*/*/*/*.ini
+
+*/*/settings/
+*/*/*/Exe/
+*/*/*/Obj/
+*/*/*/List/
+
+*/*/*/builds/
+
+# IAR temp files
+EW*.tmp
+EW*.tmp.c
+*.dep
+*.ewt
+*.pbi
+*.pbi.cout
+*.pbd
+*.pbd.browse
+
+# flash algo exe file
+*.FLM
+
